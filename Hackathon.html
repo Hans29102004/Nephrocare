@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nephrocare - Prévention et Information sur les Maladies Rénales</title>
+    <meta name="description" content="Nephrocare : Votre ressource complète sur les maladies rénales. Informations, prévention, symptômes, quiz de risque et solutions innovantes pour la santé rénale.">
+    <meta name="keywords" content="maladie rénale, insuffisance rénale, prévention rénale, santé rénale, néphrologie, diabète, hypertension, risque rénal, quiz rein, nephrocare">
+    <link rel="stylesheet" href="Hackathon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="quiz-questions.js" defer></script>
+    <script src="Hackaton.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="Ressources/Logo3(3).png" alt="Logo Nephrocare" class="logo-img">
+                <a href="#" class="logo-text">Nephrocare</a>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="magazine-link">
+                    Magazine <img src="Ressources/ico_telechargement.png" alt="Télécharger" class="magazine-icon">
+                </a>
+                <div class="menu-container">
+                    <button class="menu-btn">Menu</button>
+                    <div class="menu-dropdown">
+                        <a href="#accueil" class="menu-item">Accueil</a>
+                        <a href="#apropos" class="menu-item">À propos</a>
+                        <a href="#prevention" class="menu-item">Prévention & IA</a>
+                        <a href="#quiz" class="menu-item">Quiz Risque</a>
+                        <a href="#contact" class="menu-item">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in-down">
+                    L'Essentiel sur<br>
+                    les <span class="highlight">Maladies Rénales</span>
+                </h1>
+                <p class="hero-subtitle fade-in-up">Comprendre, Prévenir, Agir : Bâtir une communauté saine</p>
+                <button class="cta-button fade-in-up">Télécharger notre Magazine</button>
+            </div>
+        </section>
+
+        <section id="apropos" class="article-section">
+            <div class="container">
+                <article class="main-article">
+                    <!-- Introduction -->
+                    <h2 class="article-title fade-in-down">
+                        Qu'est-ce qu'une <span class="highlight">Maladie Rénale</span> ?
+                    </h2>
+                    <div class="article-content visible fade-in-up">
+                        <p>Les <strong>reins</strong> jouent un rôle clé dans le 
+                            maintien de l'équilibre chimique et hydrique du corps.
+                            Leur fonction principale est de filtrer les déchets et 
+                            l'excès de liquides du sang pour produire l'urine. 
+                            Une <strong>maladie rénale</strong> survient lorsque 
+                            les reins ne fonctionnent plus correctement, souvent 
+                            en raison de diverses conditions qui endommagent 
+                            progressivement leurs tissus. Ces affections peuvent
+                            être aiguës (survenant soudainement) ou chroniques,
+                            avec une détérioration progressive de la fonction 
+                            rénale qui peut mener à une insuffisance rénale terminale
+                            si elle n'est pas traitée.
+                        </p>
+                    </div>
+
+                    <!-- Types de Maladies -->
+                    <h3 class="section-subtitle">
+                        Types de <span class="highlight">Maladies Rénales</span>
+                    </h3>
+                    <div class="article-content with-image">
+                        <div class="text-content">
+                            <p>Il existe plusieurs types de maladies rénales,
+                               chacune ayant des causes, des symptômes et
+                               des traitements spécifiques :
+                            </p>
+                            <ul class="article-list">
+                                <li>
+                                    <strong>Insuffisance Rénale Chronique (IRC) :</strong> 
+                                    C'est une dégradation progressive de la fonction rénale 
+                                    sur plusieurs années. Elle est souvent causée par des 
+                                    maladies comme le diabète ou l'hypertension. L'IRC peut 
+                                    ne présenter aucun symptôme dans ses premières étapes, 
+                                    ce qui rend sa détection difficile sans tests réguliers.
+                                </li>
+                                <li>
+                                    <strong>Néphropathie Diabétique :</strong> Le diabète est l'une
+                                     des causes les plus courantes de l'insuffisance rénale. 
+                                     L'excès de glucose dans le sang peut endommager les petits 
+                                     vaisseaux sanguins des reins, ce qui perturbe leur fonction.
+                                     Il est essentiel de surveiller de près la fonction rénale
+                                     chez les personnes diabétiques pour éviter des complications
+                                     graves.
+                                </li>
+                                <li>
+                                    <strong>Hypertension Rénale :</strong> Une pression artérielle
+                                     élevée sur une période prolongée peut endommager les artères
+                                     des reins, affectant ainsi leur capacité à filtrer correctement
+                                     le sang. La gestion de l'hypertension est donc essentielle pour
+                                     prévenir les maladies rénales.
+                                </li>
+                                <li>
+                                    <strong>Glomérulonéphrite :</strong>  Il s'agit d'une inflammation 
+                                    des glomérules, les unités filtrantes des reins. Cette condition 
+                                    peut résulter d'infections rénales ou de maladies auto-immunes, 
+                                    comme le lupus. Elle peut entraîner des fuites de protéines et 
+                                    de sang dans l'urine.
+                                </li>
+                                <li>
+                                    <strong>Polykystose Rénale :</strong> Cette maladie génétique se 
+                                    caractérise par la formation de multiples kystes dans les reins. Au 
+                                    fur et à mesure que ces kystes grossissent, ils endommagent le tissu 
+                                    rénal et peuvent entraîner une insuffisance rénale.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="image-container">
+                            <img src="Ressources/Kidney.png" alt="Illustration anatomique d'un rein sain" class="article-image">
+                        </div>
+                    </div>
+
+                    <!-- Contenu caché -->
+                    <div class="hidden-content">
+
+                        <!-- Causes -->
+                        <h3 class="section-subtitle">
+                            Causes<span class="highlight"> & </span>Facteur <span class="highlight">de</span> Risques
+                        </h3>
+                        <div class="article-content">
+                            <p>
+                                Les causes des maladies rénales sont nombreuses et peuvent être liées à des 
+                                facteurs génétiques, des infections ou des habitudes de vie. Voici les principales 
+                                causes et facteurs de risque :
+                            </p>
+                            <ul class="article-list2">
+                                <li>
+                                    <strong>Diabète et Hypertension :</strong> Ce sont les deux principaux facteurs de risque des 
+                                    maladies rénales. Un diabète mal contrôlé peut endommager les vaisseaux sanguins 
+                                    des reins, et une pression artérielle élevée peut les endommager de la même manière.
+                                </li>
+                                <li>
+                                    <strong>Prédisposition génétique :</strong> Certaines maladies rénales, comme la polykystose rénale, sont 
+                                    héréditaires. Les personnes ayant des antécédents familiaux de maladies rénales sont plus 
+                                    susceptibles de les développer.
+                                </li>
+                                <li>
+                                    <strong>Infections et Médicaments :</strong> Les infections rénales répétées, comme les pyélonéphrites, peuvent 
+                                    endommager le tissu rénal. Certains médicaments, notamment les anti-inflammatoires non stéroïdiens 
+                                    (AINS) et les antibiotiques, peuvent également avoir un effet toxique sur les reins s'ils sont pris 
+                                    de manière excessive.
+                                </li>
+                                <li>
+                                    <strong>Mode de vie :</strong> Un régime alimentaire riche en sel, en graisses saturées, et en sucres, associé à un manque
+                                    d'exercice physique, peut contribuer au développement de l'hypertension, du diabète et, par conséquent, 
+                                    des maladies rénales.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Symptômes -->
+                        <h3 class="section-subtitle">
+                            Symptômes des <span class="highlight">Maladies Rénales</span>
+                        </h3>
+                        <div class="article-content">
+                            <p>
+                                Les symptômes des maladies rénales ne sont pas toujours évidents, surtout dans 
+                                les premiers stades. Cependant, plusieurs signes peuvent indiquer une défaillance 
+                                rénale, notamment :
+                            </p>
+                            <ul class="article-list2">
+                                <li>
+                                    <strong>Fatigue excessive :</strong>Les personnes atteintes de maladies rénales 
+                                    ressentent souvent une fatigue importante, car leurs reins ne parviennent plus à 
+                                    éliminer les toxines du corps.
+                                </li>
+                                <li>
+                                    <strong>Gonflements (œdèmes) :</strong>Lorsque les reins 
+                                    ne fonctionnent pas correctement, l'excès de liquide peut s'accumuler, provoquant des 
+                                    gonflements visibles au niveau des pieds, des chevilles, et parfois du visage.
+                                </li>
+                                <li>
+                                    <strong>Urines anormales :</strong>Les patients peuvent observer 
+                                    une modification de la fréquence ou de l'apparence de leurs urines, telles que des urines 
+                                    mousseuses (indiquant la présence de protéines), une réduction de la quantité d'urine, ou 
+                                    des urines de couleur foncée.
+                                </li>
+                                <li>
+                                    <strong>Douleurs dans la région des reins :</strong>Des douleurs persistantes dans le bas du dos peuvent être le signe de dommages rénaux, bien que ce symptôme 
+                                    ne soit pas toujours spécifique aux maladies rénales.
+                                </li>
+                                <li>
+                                    <strong>Pression artérielle élevée :</strong>Une hypertension non contrôlée est un signe 
+                                    fréquent de défaillance rénale, car les reins jouent un rôle important dans la régulation 
+                                    de la pression sanguine.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Bouton dérouler -->
+                    <button class="expand-button">
+                        <span class="expand-text">Voir plus</span>
+                        <span class="expand-icon">▼</span>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section Prévention -->
+        <section id="prevention" class="prevention-section">
+            <div class="container">
+                <h2 class="prevention-title fade-in-down">
+                    <span class="highlight">Méthodes</span> & <span class="highlight">Outils</span> de Prévention <br> Contres les Maladie Renales
+                </h2>
+                <p class="prevention-description fade-in-up">
+                    Découvrez les approches modernes et les solutions innovantes <br>pour prévenir et gérer les maladies rénales
+                </p>
+
+                <!-- Méthodes de Prévention -->
+                <div class="prevention-content fade-in-up">
+                    <h3 class="prevention-subtitle">
+                        Méthodes & Moyens de <span class="highlight">Prévention</span>
+                    </h3>
+                    <div class="prevention-illustration">
+                        <img src="Ressources/3.png" alt="Méthodes de prévention des maladies rénales : alimentation, exercice, hydratation" class="prevention-banner">
+                    </div>
+                    <div class="prevention-text">
+                        <p>La prévention des maladies rénales repose sur plusieurs piliers fondamentaux qui, 
+                           lorsqu'ils sont suivis régulièrement, peuvent significativement réduire les risques 
+                           de développer ces pathologies :</p>
+                           <ul class="article-list2">
+                            <li>
+                                <strong>Adopter une alimentation équilibrée :</strong> 
+                                Limiter l'apport en sel et en graisses, 
+                                privilégier une alimentation riche en légumes, fruits et 
+                                protéines maigres.
+                            </li>
+                            <li>
+                                <strong>Faire de l'exercice physique régulièrement :</strong>L'activité physique 
+                                modérée permet de réguler la pression artérielle et d'améliorer la circulation 
+                                sanguine, contribuant ainsi à la santé rénale.
+                            </li>
+                            <li>
+                                <strong>Surveiller la pression artérielle et le taux de glucose sanguin:</strong>Pour 
+                                les personnes à risque, il est essentiel de contrôler régulièrement la pression 
+                                artérielle et de maintenir un taux de sucre sanguin stable, notamment pour les 
+                                diabétiques.
+                            </li>
+                            <li>
+                                <strong>Boire Souvent de L'eau:</strong>Une bonne hydratation aide également à prévenir 
+                                l'insuffisance rénale en favorisant une meilleure élimination des excès de sels et de 
+                                minéraux. Il est donc essentiel d'adopter une habitude de consommation d'eau suffisante 
+                                au quotidien pour préserver la santé rénale et prévenir des complications graves.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- IA et Prévention -->
+                <div class="prevention-content fade-in-up">
+                    <h3 class="prevention-subtitle">
+                        <span class="highlight">L'IA </span>au <span class="highlight">Service</span> de la Lutte
+                    </h3>
+                    <div class="prevention-text">
+                        <p>L'Intelligence Artificielle révolutionne la prévention et le traitement des maladies rénales 
+                           en apportant des solutions innovantes et personnalisées. Grâce à sa capacité d'analyse 
+                           avancée et son apprentissage continu, l'IA offre de nouveaux outils pour mieux comprendre, 
+                           prévenir et gérer ces pathologies :</p>
+                    </div>
+                    <div class="prevention-grid">
+                        <div class="prevention-cards-container">
+                            <!-- Première série de cartes -->
+                            <div class="prevention-card">
+                                <div class="card-image">
+                                    <img src="Ressources/ia1.jpg" alt="Diagnostic précoce">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Diagnostic précoce</h4>
+                                    <p>Les algorithmes d'IA permettent de détecter les premiers signes de maladie rénale 
+                                       à partir d'analyses médicales.</p>
+                                </div>
+                            </div>
+
+                            <div class="prevention-card2">
+                                <div class="card-image">
+                                    <img src="Ressources/ia2.jpg" alt="Suivi personnalisé">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Suivi personnalisé</h4>
+                                    <p>L'IA analyse les données de santé pour proposer des recommandations adaptées 
+                                       à chaque patient.</p>
+                                </div>
+                            </div>
+
+                            <div class="prevention-card">
+                                <div class="card-image">
+                                    <img src="Ressources/Illu_pred_IA.jpeg" alt="Prévention prédictive">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Prévention prédictive</h4>
+                                    <p>Les modèles prédictifs permettent d'identifier les personnes à risque pour des 
+                                       mesures préventives ciblées.</p>
+                                </div>
+                            </div>
+
+                            <div class="prevention-card2">
+                                <div class="card-image">
+                                    <img src="Ressources/Illu_ia_med.jpeg" alt="Assistance médicale intelligente">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Assistance médicale</h4>
+                                    <p>L'IA aide les professionnels de santé à optimiser les traitements en analysant 
+                                       les données médicales.</p>
+                                </div>
+                            </div>
+
+                            <!-- Duplication des cartes pour le défilement infini -->
+                            <div class="prevention-card">
+                                <div class="card-image">
+                                    <img src="Ressources/ia1.jpg" alt="Diagnostic précoce">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Diagnostic précoce</h4>
+                                    <p>Les algorithmes d'IA permettent de détecter les premiers signes de maladie rénale 
+                                       à partir d'analyses médicales.</p>
+                                </div>
+                            </div>
+
+                            <div class="prevention-card2">
+                                <div class="card-image">
+                                    <img src="Ressources/ia2.jpg" alt="Suivi personnalisé">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Suivi personnalisé</h4>
+                                    <p>L'IA analyse les données de santé pour proposer des recommandations adaptées 
+                                       à chaque patient.</p>
+                                </div>
+                            </div>
+
+                            <div class="prevention-card">
+                                <div class="card-image">
+                                    <img src="Ressources/ia3.jpg" alt="Prévention prédictive">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Prévention prédictive</h4>
+                                    <p>Les modèles prédictifs permettent d'identifier les personnes à risque pour des 
+                                       mesures préventives ciblées.</p>
+                                </div>
+                            </div>
+
+                            <div class="prevention-card2">
+                                <div class="card-image">
+                                    <img src="Ressources/ia4.jpg" alt="Assistance médicale intelligente">
+                                </div>
+                                <div class="card-content">
+                                    <h4>Assistance médicale</h4>
+                                    <p>L'IA aide les professionnels de santé à optimiser les traitements en analysant 
+                                       les données médicales.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Quiz -->
+        <section id="quiz" class="quiz-section">
+            <div class="container">
+                <div class="quiz-layout">
+                    <div class="quiz-title-container">
+                        <h2 class="quiz-title fade-in-down">
+                            Évaluez votre <span class="highlight">Risque</span>
+                        </h2>
+                        <p class="quiz-description fade-in-up">
+                            Répondez à quelques questions pour évaluer votre risque de développer une maladie rénale
+                        </p>
+                    </div>
+                    <div class="quiz-container fade-in-up">
+                        <div class="quiz-content">
+                            <div class="question-section quiz-element">
+                                <h3 class="question-title">Repondez au Questions:</h3>
+                                <img id="question-image" src="" alt="Illustration de la question" class="question-image">
+                                <h2 id="question-text">Chargement...</h2>
+                            </div>
+                            <div id="choices" class="quiz-element"></div>
+                            <div class="result-section result-element" style="display: none;">
+                                <h3 class="result-title">Résultat de votre <span class="highlight">évaluation</span> :</h3>
+                                <img id="kidney-image" src="Ressources/happy_kidney.png" alt="État du rein" class="kidney-image">
+                                <h3 id="result">Votre niveau de risque : <span id="risk-value"></span></h3>
+                                <p id="advice"></p>
+                                <a href="#" id="show-details-btn" class="details-link">Lire plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modale pour les détails du résultat -->
+        <div id="result-details-modal" class="modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <button id="close-modal-btn" class="close-btn">&times;</button>
+                <h3 class="modal-result-title">Résultat détaillé</h3> 
+                <img id="modal-kidney-image" src="" alt="État du rein" class="kidney-image">
+                <h4 id="modal-result-value"></h4> 
+                <div id="detailed-advice-list"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Ressources/Logo3(3).png" alt="Nephrocare" class="footer-logo-img">
+                    <div class="footer-logo-content">
+                        <span class="footer-logo-text">Nephrocare</span>
+                        <p class="footer-description">Votre partenaire de confiance pour la santé rénale, offrant des solutions innovantes et personnalisées pour la prévention et la gestion des maladies rénales.</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="#accueil">Accueil</a></li>
+                            <li><a href="#apropos">À propos</a></li>
+                            <li><a href="#prevention">Prévention & IA</a></li>
+                            <li><a href="#quiz">Quiz Risque</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3>Commentaires</h3>
+                        <form class="comment-form">
+                            <textarea id="comment-text" name="comment" placeholder="Laissez votre commentaire ici..."></textarea>
+                            <button type="submit" class="submit-comment-btn">Envoyer</button>
+                        </form>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li><a href="mailto:contact@nephrocare.com">contact@nephrocare.com</a></li>
+                            <li><a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                            <li><a name="contact"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nephrocare. Tous droits réservés.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
