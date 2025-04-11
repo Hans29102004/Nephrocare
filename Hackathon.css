@@ -58,7 +58,7 @@ body {
 }
 
 .logo-text {
-    color: var(--text-color);
+    color: var(--new-color);
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: bold;
