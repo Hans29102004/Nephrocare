@@ -1,6 +1,6 @@
-# Nephrocare
+# VitalRein+
 
-Nephrocare est un projet web informatif et interactif axé sur la sensibilisation aux maladies rénales. Il vise à éduquer les utilisateurs sur les différentes facettes des affections rénales, les méthodes de prévention (y compris l'apport de l'IA), et à fournir un outil d'auto-évaluation des risques.
+ VitalRein+ est un projet web informatif et interactif axé sur la sensibilisation aux maladies rénales. Il vise à éduquer les utilisateurs sur les différentes facettes des affections rénales, les méthodes de prévention (y compris l'apport de l'IA), et à fournir un outil d'auto-évaluation des risques.
 
 ## Fonctionnalités principales
 
