@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nephrocare - Prévention et Information sur les Maladies Rénales</title>
-    <meta name="description" content="Nephrocare : Votre ressource complète sur les maladies rénales. Informations, prévention, symptômes, quiz de risque et solutions innovantes pour la santé rénale.">
-    <meta name="keywords" content="maladie rénale, insuffisance rénale, prévention rénale, santé rénale, néphrologie, diabète, hypertension, risque rénal, quiz rein, nephrocare">
+    <title>VitalRein+ - Prévention et Information sur les Maladies Rénales</title>
+    <meta name="description" content="VitalRein+ : Votre ressource complète sur les maladies rénales. Informations, prévention, symptômes, quiz de risque et solutions innovantes pour la santé rénale.">
+    <meta name="keywords" content="maladie rénale, insuffisance rénale, prévention rénale, santé rénale, néphrologie, diabète, hypertension, risque rénal, quiz rein, VitalRein+">
     <link rel="stylesheet" href="Hackathon.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="quiz-questions.js" defer></script>
@@ -16,21 +16,20 @@
         <nav class="nav-container">
             <div class="logo">
                 <img src="Ressources/Logo3(3).png" alt="Logo Nephrocare" class="logo-img">
-                <a href="#" class="logo-text">Nephrocare</a>
+                <a href="#" class="logo-text">VitalRein+</a>
             </div>
+            <!-- Dans le header - modification du lien magazine -->
             <div class="nav-links">
-                <a href="#" class="magazine-link">
+                <a href="Ressources/Magazine_VitalRein+.pdf" id="magazine-link-header" class="magazine-link" download="Magazine_VitalRein.pdf">
                     Magazine <img src="Ressources/ico_telechargement.png" alt="Télécharger" class="magazine-icon">
                 </a>
-                <div class="menu-container">
-                    <button class="menu-btn">Menu</button>
-                    <div class="menu-dropdown">
-                        <a href="#accueil" class="menu-item">Accueil</a>
-                        <a href="#apropos" class="menu-item">À propos</a>
-                        <a href="#prevention" class="menu-item">Prévention & IA</a>
-                        <a href="#quiz" class="menu-item">Quiz Risque</a>
-                        <a href="#contact" class="menu-item">Contact</a>
-                    </div>
+                <button class="menu-btn">Menu</button>
+                <div class="menu-dropdown">
+                    <a href="#accueil" class="menu-item">Accueil</a>
+                    <a href="#apropos" class="menu-item">À propos</a>
+                    <a href="#prevention" class="menu-item">Prévention & IA</a>
+                    <a href="#quiz" class="menu-item">Quiz Risque</a>
+                    <a href="#contact" class="menu-item">Contact</a>
                 </div>
             </div>
         </nav>
@@ -38,13 +37,14 @@
 
     <main>
         <section id="accueil" class="hero-section">
+            <!-- Dans la section hero - modification du lien de téléchargement -->
             <div class="hero-content">
                 <h1 class="hero-title fade-in-down">
                     L'Essentiel sur<br>
                     les <span class="highlight">Maladies Rénales</span>
                 </h1>
                 <p class="hero-subtitle fade-in-up">Comprendre, Prévenir, Agir : Bâtir une communauté saine</p>
-                <button class="cta-button fade-in-up">Télécharger notre Magazine</button>
+                <a href="Ressources/Magazine_VitalRein+.pdf" id="magazine-link-hero" class="cta-button fade-in-up" download="Magazine_VitalRein.pdf">Télécharger notre Magazine</a>
             </div>
         </section>
 
@@ -99,31 +99,35 @@
                                      chez les personnes diabétiques pour éviter des complications
                                      graves.
                                 </li>
-                                <li>
-                                    <strong>Hypertension Rénale :</strong> Une pression artérielle
-                                     élevée sur une période prolongée peut endommager les artères
-                                     des reins, affectant ainsi leur capacité à filtrer correctement
-                                     le sang. La gestion de l'hypertension est donc essentielle pour
-                                     prévenir les maladies rénales.
-                                </li>
-                                <li>
-                                    <strong>Glomérulonéphrite :</strong>  Il s'agit d'une inflammation 
-                                    des glomérules, les unités filtrantes des reins. Cette condition 
-                                    peut résulter d'infections rénales ou de maladies auto-immunes, 
-                                    comme le lupus. Elle peut entraîner des fuites de protéines et 
-                                    de sang dans l'urine.
-                                </li>
-                                <li>
-                                    <strong>Polykystose Rénale :</strong> Cette maladie génétique se 
-                                    caractérise par la formation de multiples kystes dans les reins. Au 
-                                    fur et à mesure que ces kystes grossissent, ils endommagent le tissu 
-                                    rénal et peuvent entraîner une insuffisance rénale.
-                                </li>
                             </ul>
                         </div>
                         <div class="image-container">
                             <img src="Ressources/Kidney.png" alt="Illustration anatomique d'un rein sain" class="article-image">
-                        </div>
+                        </div>  
+                    </div>
+                    <div class="article-content">
+                    <ul class="article-list2">
+                        <li>
+                            <strong>Hypertension Rénale :</strong> Une pression artérielle
+                             élevée sur une période prolongée peut endommager les artères
+                             des reins, affectant ainsi leur capacité à filtrer correctement
+                             le sang. La gestion de l'hypertension est donc essentielle pour
+                             prévenir les maladies rénales.
+                        </li>
+                        <li>
+                            <strong>Glomérulonéphrite :</strong>  Il s'agit d'une inflammation 
+                            des glomérules, les unités filtrantes des reins. Cette condition 
+                            peut résulter d'infections rénales ou de maladies auto-immunes, 
+                            comme le lupus. Elle peut entraîner des fuites de protéines et 
+                            de sang dans l'urine.
+                        </li>
+                        <li>
+                            <strong>Polykystose Rénale :</strong> Cette maladie génétique se 
+                            caractérise par la formation de multiples kystes dans les reins. Au 
+                            fur et à mesure que ces kystes grossissent, ils endommagent le tissu 
+                            rénal et peuvent entraîner une insuffisance rénale.
+                        </li>
+                    </ul>
                     </div>
 
                     <!-- Contenu caché -->
@@ -423,7 +427,7 @@
                 <div class="footer-logo">
                     <img src="Ressources/Logo3(3).png" alt="Nephrocare" class="footer-logo-img">
                     <div class="footer-logo-content">
-                        <span class="footer-logo-text">Nephrocare</span>
+                        <span class="footer-logo-text">VitalRein+</span>
                         <p class="footer-description">Votre partenaire de confiance pour la santé rénale, offrant des solutions innovantes et personnalisées pour la prévention et la gestion des maladies rénales.</p>
                     </div>
                 </div>

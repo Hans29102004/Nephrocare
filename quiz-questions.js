@@ -14,7 +14,7 @@
 const quizQuestions = [
     {
         question: "Quel est votre âge ?",
-        image: "Ressources/Illu_ia_med.jpeg",
+        image: "Ressources/1_age.png",
         choices: [
             { text: "Moins de 30 ans", score: 0 },
             { text: "30-45 ans", score: 1 },
@@ -30,7 +30,7 @@ const quizQuestions = [
     },
     {
         question: "Avez-vous du diabète ?",
-        image: "Ressources/Illu_ia_med.jpeg",
+        image: "Ressources/2_Diabete.png",
         choices: [
             { text: "Non", score: 0 },
             { text: "Pré-diabète", score: 1 },
@@ -46,7 +46,7 @@ const quizQuestions = [
     },
     {
         question: "Quelle est votre tension artérielle habituelle ?",
-        image: "Ressources/blood-pressure.jpg",
+        image: "Ressources/3_AT.png",
         choices: [
             { text: "Normale (inf. à 120/80)", score: 0 },
             { text: "Légèrement élevée (120-139 / 80-89)", score: 1 },
@@ -62,7 +62,7 @@ const quizQuestions = [
     },
     {
         question: "Avez-vous des antécédents familiaux de maladie rénale ?",
-        image: "Ressources/family-history.jpg",
+        image: "Ressources/4_AF.png",
         choices: [
             { text: "Aucun", score: 0 },
             { text: "Parents éloignés (oncles, tantes, cousins...)", score: 1 },
@@ -78,7 +78,7 @@ const quizQuestions = [
     },
     {
         question: "Quelle est votre consommation quotidienne en eau ?",
-        image: "Ressources/water.jpg",
+        image: "Ressources/5_eau.png",
         choices: [
             { text: "Plus de 1.5L par jour", score: 0 },
             { text: "Entre 1L et 1.5L par jour", score: 1 },
@@ -94,7 +94,7 @@ const quizQuestions = [
     },
     {
         question: "Quelle est votre consommation de sel ?",
-        image: "Ressources/salt.jpg",
+        image: "Ressources/7_sel.png",
         choices: [
             { text: "Très faible (vous ne salez presque jamais)", score: 0 },
             { text: "Modérée (vous salez raisonnablement)", score: 1 },
@@ -110,7 +110,7 @@ const quizQuestions = [
     },
     {
         question: "Pratiquez-vous une activité physique régulière ?",
-        image: "Ressources/exercise.jpg",
+        image: "Ressources/8_Sport.png",
         choices: [
             { text: "Intensive (plus de 3h par semaine)", score: 0 },
             { text: "Modérée (1-3h par semaine)", score: 1 },
@@ -126,7 +126,7 @@ const quizQuestions = [
     },
     {
         question: "Avez-vous déjà eu des problèmes rénaux connus ?",
-        image: "Ressources/kidney-problems.jpg",
+        image: "Ressources/9_prc.png",
         choices: [
             { text: "Jamais", score: 0 },
             { text: "Infections urinaires fréquentes", score: 1 },
@@ -142,7 +142,7 @@ const quizQuestions = [
     },
     {
         question: "Quel est votre indice de masse corporelle (IMC) ?",
-        image: "Ressources/bmi.jpg",
+        image: "Ressources/10_IMC.png",
         choices: [
             { text: "Normal (18.5 - 24.9)", score: 0 },
             { text: "Surpoids (25 - 29.9)", score: 1 },
@@ -158,7 +158,7 @@ const quizQuestions = [
     },
     {
         question: "Prenez-vous régulièrement des anti-inflammatoires non stéroïdiens (AINS) ?",
-        image: "Ressources/medication.jpg",
+        image: "Ressources/11_ains.png",
         choices: [
             { text: "Jamais ou très rarement", score: 0 },
             { text: "Occasionnellement (quelques fois par mois)", score: 1 },

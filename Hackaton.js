@@ -1,4 +1,3 @@
-// Gestion du menu
 document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
     // GESTION DU MENU DÉROULANT

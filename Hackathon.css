@@ -19,6 +19,7 @@ body {
     font-family: var(--font-primary);
     line-height: 1.6;
     background-color: var(--white);
+    overflow-x: hidden;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
@@ -219,7 +220,7 @@ body {
    SECTION ARTICLE
    ========================================== */
 .article-section {
-    padding: 2rem 10rem 5rem 2rem;
+    padding: 2rem 10rem 5rem 3rem;
     background-color: var(--white);
     margin-top: 2rem;
     position: relative;
@@ -231,7 +232,7 @@ body {
 }
 
 .main-article {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -248,7 +249,8 @@ body {
     font-family: var(--font-primary);
     font-size: 2rem;
     color: var(--new-color);
-    margin: 3rem 0 1.5rem;
+    margin-left: 0rem;
+    margin-bottom: 1rem;
 }
 
 .article-content {
@@ -270,23 +272,23 @@ body {
 
 .article-content.with-image {
     display: flex;
-    gap: 6rem;
+    gap: 2rem;
     align-items: flex-start;
 }
 
 .text-content {
     flex: 3;
-    margin-right: -40%;
+    margin-right: -43%;
 }
 
 .image-container {
-    flex: 1;
+    flex: 0.5;
 }
 
 .article-image {
-    margin-top: 70%;
-    width: 120%;
-    height: 10%;
+    margin-top: 30%;
+    width: 90%;
+    height: 0%;
     border-radius: 10px;
     box-shadow: 0px 0px 0px rgba(0,0,0,0.1);
 }
@@ -294,7 +296,7 @@ body {
     list-style: none;
     padding-left: 0;
     margin-left: 2rem;
-    margin-right: 0%;
+    margin-right: 2%;
 }
 
 .article-list2 li {
@@ -376,6 +378,7 @@ body {
     max-height: 2000px;
     opacity: 1;
     transition: max-height 0.8s ease-in, opacity 0.5s ease-in;
+    overflow: visible;
 }
 
 .expand-button {
@@ -591,8 +594,8 @@ body {
 
 .prevention-text {
     max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 2rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
 }
 
 .prevention-text p {
